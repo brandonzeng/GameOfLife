@@ -1,0 +1,31 @@
+#grid {
+	display:inline-block;
+	line-height: 5px;
+	font-size: 5px;
+	padding: 5px;
+}
+
+#grid cell, #grid cell:visited {
+	display: block;
+	float: left;
+	width: 15px;
+	text-align: center;
+	color: #333;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+#grid cell {
+	width: 8px;
+	height: 8px;
+	margin: 0 1px 1px 0;
+}
+
+#grid cell.alive {
+	background-color: #000000;
+}
+
+#grid cell.dead {
+	background-color: #F0F0F0;
+}
+
